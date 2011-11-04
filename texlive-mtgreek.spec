@@ -1,5 +1,11 @@
+# revision 17967
+# category Package
+# catalog-ctan /macros/latex/contrib/mtgreek
+# catalog-date 2010-04-21 23:25:04 +0200
+# catalog-license lppl
+# catalog-version 1.1+
 Name:		texlive-mtgreek
-Version:	1.1+
+Version:	1.1
 Release:	1
 Summary:	Use italic and upright greek letters with mathtime
 Group:		Publishing
@@ -48,6 +54,7 @@ Greek uppercase letters.
 #- source
 %doc %{_texmfdistdir}/source/latex/mtgreek/mtgreek.dtx
 %doc %{_texmfdistdir}/source/latex/mtgreek/mtgreek.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ Greek uppercase letters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

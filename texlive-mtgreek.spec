@@ -6,7 +6,7 @@
 # catalog-version 1.1+
 Name:		texlive-mtgreek
 Version:	1.1+
-Release:	1
+Release:	2
 Summary:	Use italic and upright greek letters with mathtime
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mtgreek

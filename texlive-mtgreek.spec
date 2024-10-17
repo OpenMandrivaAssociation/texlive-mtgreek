@@ -3,7 +3,7 @@ Version:	17967
 Release:	2
 Summary:	Use italic and upright greek letters with mathtime
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/mtgreek
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/mtgreek
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mtgreek.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/mtgreek.doc.r%{version}.tar.xz
